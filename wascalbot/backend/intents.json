@@ -1,0 +1,491 @@
+{
+    "intents": [{
+            "tag": "aboutdmd",
+            "patterns": ["what is the role of dmd", "why the dmd", "what is the vision of dmd", "what is the goal of dmd", "about dmd"],
+            "responses": ["The Data Management Department (DMD) of the Competence Center plays a central role in the overall operations of WASCAL.",
+                "It hosts and manages the WASCAL Data Infrastructure to deliver timely data services in support of the climate and environmental services provision and capacity building programs of WASCAL."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "dmd",
+            "patterns": ["dmd", "the definition of dmd", "what is a dmd", "what does dmd mean", "meaning of dmd"],
+            "responses": ["The Data Management Department (DMD)"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "wadi",
+            "patterns": ["wadi", "the definition of wadi", "what is a wadi", "what does wadi mean", "meaning of wadi"],
+            "responses": ["The WASCAL Data Infrastructure (WADI)",
+                "WADI is a multi-purpose Infrastructure of hardware, software, network resources and information technology services"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "aboutwadi",
+            "patterns": ["what is the role of wadi", "why the wadi", "what is the vision of wadi", "what is the goal of wadi", "about wadi"],
+            "responses": ["WADI includes The Observations Networks, WASREP, HPC, and the GIS Lab"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "obsnet",
+            "patterns": ["The Observations Networks", "the definition of The Observations Networks", "what is a The Observations Networks", "what does The Observations Networks mean", "meaning of The Observations Networks"],
+            "responses": ["The Observations Networks from which raw data are collected and processed"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "aboutobsnet",
+            "patterns": ["what is the role of The observation networks", "why the observation networks", "what is the vision of The observation networks", "what is the goal of The observation networks", "about The observation networks"],
+            "responses": ["The Observation Networks provide novel high-resolution observation data for the WASCAL member countries based on innovative measurement techniques and improved facilities for data collection.",
+                "The observation networks and data products are needed to improve the capacities of the national services in meteorology, hydrology, agriculture and other disciplines, and forms the base for stakeholders for better decision-making through the establishment of multi-stakeholders’ innovation platforms in West Africa."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "hpc",
+            "patterns": ["hpc", "the definition of hpc", "what is a hpc", "what does hpc mean", "meaning of hpc"],
+            "responses": ["the WASCAL High Performance Computing system (HPC)",
+                "HPC which provides big data computation and simulation of models and previsions."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "abouthpc",
+            "patterns": ["what is the role of hpc", "why the hpc", "what is the vision of hpc", "what is the goal of hpc", "about hpc"],
+            "responses": ["This unique computational facility within WADI provides scientists with the operational and computational power to enable further developments of regional climate models and carry out numerous projection and simulation experiments."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "gis",
+            "patterns": ["gis", "the definition of gis", "what is a gis", "what does gis mean", "meaning of gis"],
+            "responses": ["GIS Lab to provide value-added remote sensed data as a complement to limited ground data."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "aboutgis",
+            "patterns": ["what is the role of gis", "why the gis", "what is the vision of gis", "what is the goal of gis", "about gis"],
+            "responses": ["The GIS and Remote Sensing Laboratory is a fully functional laboratory that provides scientists and students with the necessary infrastructure for carrying out mapping activities associated with their research projects.",
+                "The lab  provides value-added GIS and remotely sensed data to projects and offers short training courses in collaboration with the Capacity Building Program of WASCAL."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "wasrep",
+            "patterns": ["wasrep", "the definition of wasrep", "what is a wasrep", "what does wasrep mean", "meaning of wasrep"],
+            "responses": ["The WASCAL Data Repository and Portals (WASREP)",
+                "WASREP is an online platform for harvesting, storing/archiving, managing, publishing, sharing, and disseminating the data"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "aboutwasrep",
+            "patterns": ["what is the role of wasrep", "why the wasrep", "what is the vision of wasrep", "what is the goal of wasrep", "about wasrep"],
+            "responses": ["To contribute to filling the data gaps in terms of online and long-term storage and accessibility of the data, but also in the terms of datasets description, licensing and sharing, WASCAL has deployed a regional data repositories and portals, formally referred to as WASCAL data Repositories and Portals (WASREP).",
+                "WASREP being the online visible web face of WADI, it is also often referred to as WADI platform/ portal."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "watersheds",
+            "patterns": ["what are the wascal basins", "wascal basins", "wascal watersheds", "what are the wascal watersheds"],
+            "responses": ["WASCAL has established local hydro-climate observation networks in three watersheds in the semi-arid Sudanian zone of West Africa, specifically in the Dassari (Benin), Dano (Burkina Faso), and Vea/Sissilli (Ghana/Burkina Faso) watersheds."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "watershedprojet",
+            "patterns": ["what are the basin research projects", "what are the watersheds research projects", "basin research projects", "watersheds research projects"],
+            "responses": ["Past and ongoing research projects in these basins can be broadly categorized into the following thematic areas – climate, hydrology, agronomy, and land use. At the Vea Basin, for example, a micro-meteorological field experiment using eddy covariance stations has been implemented in contrasting sites (near-nature, cropland, and degraded grasslands) to assess the impact of land cover changes on water, energy, and carbon dioxide fluxes."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "dassaribassin",
+            "patterns": ["dassari", "where is the dassari basin located", "where is the dassari watersheds located"],
+            "responses": ["Located near Tanguiéta in Benin, the Dassari Basin is equipped with numerous hydro-meteorological sensors which have been collecting data since 2013.",
+                "The basin is a portion of land identified and characterized by WASCAL in 2012 for its research work.",
+                "It is located in the neighborhood of Materi in the Atacora district of Benin.",
+                "Covering an area of 200 km2, it has been delimited so that no external water enters it, and all its rivers converge towards the Pendjari park which is located completely downstream of the basin and which is thus considered to be its outlet.",
+                "It has a little rugged relief which ensures a slow flow in the main rivers.",
+                "the Dassari basin straddles the Pendjari park and a part of the neighborhoods of Materi and Tanguiéta.",
+                "the basin  both a Controlled Occupation Zone and a disturbed area due to the vast array of anthropogenic activities by residents of the nearby villages."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "dassariclimat",
+            "patterns": ["climate of the dassari basin", "the seasons of the dassari basin", "climate of the dassari watersheds", "the seasons of the dassari watersheds"],
+            "responses": ["The basin is characterized by a Sudano-Guinean type climate, with an uni-modal rainfall pattern characterized by two distinct seasons.",
+                "The dry season is generally from November to April.",
+                "It is marked by a dry and cool wind, also known as the harmattan, which originates from the Sahara between November and February on the one hand, and by a period of strong heat (March and April) on the other hand.",
+                "The rainy season which largely determines the local agricultural calendar generally runs from May to October with occasional pockets of drought.",
+                "The rains, which are unequally distributed over the period, are set in July and heavy rainfall is observed in August and September.",
+                "Maximum daily temperature within the basin varies between 34 and 40° C, with an average temperature of about 27 ° C, However, average temperature during the cooler months (November, December, and January) is around 19° C"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "danobasin",
+            "patterns": ["dano", "where is the dano basin located", "where is the dassari watersheds located"],
+            "responses": ["The Dano Basin is one of WASCAL’s core research catchments equipped with numerous hydro-meteorological sensors and is located near Dano in the Loba Province of Burkina Faso.",
+                "The basin, which covers a total area of 195 km2, encompasses a micro stream that belong to the large Mouhoun Basin (Black Volta).",
+                "The Dano basin is part of the transition zone between the Sudano-Sahelian zone (600-900mm/year precipitation) and the Sudanian zone (900-1200mm/year precipitation).",
+                ""
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "danoclimat",
+            "patterns": ["climate of the dano basin", "the seasons of the dano basin", "climate of the vea watersheds", "the seasons of the vea watersheds"],
+            "responses": ["The climate over the catchment is characterized by two distinct seasons: a rainy season (May to October) and a dry season (November to April).",
+                "The climate regime is regulated by the oscillation of the Intertropical Convergence Zone (ITCZ) front which is driven by the Sahara anticyclone and the Southern Hemisphere anticyclone.",
+                "The annual mean temperature in the catchment equals 28°C with monthly mean values varying between 24°C and 32°C."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "veabassin",
+            "patterns": ["vea", "where is the vea basin located", "where is the vea watersheds located", "sissili", "where is the sissili basin located", "where is the sissili watersheds located"],
+            "responses": ["The Vea/Sissilli Basin collectively represents five (5) watersheds including the Vea, the Sissili, the Tono, the Atankwedi and the Anayare river basins.",
+                "The basin which covers parts of northern Ghana and southern Burkina Faso is one the three focal experimental catchments of WASCAL with Vea watershed (about 300 km2 in surface area) being its core research area.",
+                "The basin comprises several wetlands, inland valleys, small dams (used for irrigation and animal watering) and wells/pumps resulting which makes it a complex ecosystem."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "veaclimat",
+            "patterns": ["climate of the vea basin", "the seasons of the vea basin", "climate of the sissili basin", "the seasons of the sissili basin", "climate of the vea watersheds", "the seasons of the vea watersheds", "climate of the sissili watersheds", "the seasons of the sissili watersheds"],
+            "responses": ["The climate of the basin is driven by West African Monsoon (WAM) and can be separated according to the WAM stages into a dry season (December to February), rainy season (July to September) and two transitional periods.",
+                "Annual precipitation in the basin ranges between 800 mm and 1100 mm and originates largely from mesoscale convective systems."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "wrapabout",
+            "patterns": ["what is the role of wrap", "why the wrap", "what is the vision of wrap", "what is the goal of wrap", "about wrap"],
+            "responses": ["The WASCAL Research Action Plan (WRAP 2.0) is the current working agenda of the Competence Center and is geared toward making the center a full-service provision center by delivering key demand-driven climate and environmental services to be taken up by policymakers and other stakeholders, including smallholders.",
+                "WRAP 2.0 seeks to formulate and carry out demand-driven research for development-oriented outcomes as prioritized by WASCAL member states, and to establish WASCAL as a front-line West African climate service center.",
+                "generate sound, evidence-based knowledge and information, and devise tools, including software to support decision-making.",
+                "provide policy information and support for developing climate and environmental risk management, building resilient socio-ecological landscapes, and attaining sustainable agricultural production and food security."
+            ],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "wrapsearch",
+            "patterns": ["wrap research themes", "wrap search"],
+            "responses": ["WRAP 2.0 is based on five (5) interrelated Priority Research Themes that of regional relevance in West Africa: land use and land degradation, risk and vulnerability to climate extremes, rural-urban and cross-border migration, sustainable agriculture and climate smart landscapes, and renewable energy."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "cec",
+            "patterns": ["cec", "the definition of cec", "what is a cec", "what does cec mean", "meaning of cec"],
+            "responses": ["Climate and Environmental Services "],
+            "context_set": ""
+        },
+
+        {
+            "tag": "cecabout",
+            "patterns": ["what is the role of cec", "why the cec", "what is the vision of cec", "what is the goal of cec", "about cec"],
+            "responses": ["The Competence Center provides Climate and Environmental Services (CES) using available and existing data, on-going research experiences, tools, and techniques from the Core Research Programme (CRP) of WASCAL.",
+                "CES are developed to provide information, engineering solutions, policy guidance and knowledge to support resilience, sustainable development and improve livelihoods.",
+                "These are “customized” and “integrated” services responding to user needs, to the new challenges posed by global warming and climate change, and bringing together human skills, financial investments, information resources, tools, and training to improve the adaptive capacity of nations and the resilience of different sectors."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "csa",
+            "patterns": ["csa", "the definition of csa", "what is a csa", "what does csa mean", "meaning of csa"],
+            "responses": ["CSA is Climate-Smart Agriculture"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "tix",
+            "patterns": ["tix", "the definition of tix", "what is a tix", "what does tix mean", "meaning of tix"],
+            "responses": ["TIX is Timely Information on Climate Extremes)"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "cpa",
+            "patterns": ["cpa", "the definition of cpa", "what is a cpa", "what does wadi cpa", "meaning of cpa"],
+            "responses": ["CPA is Climate Policy and Action"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "dsc",
+            "patterns": ["dsc", "the definition of dsc", "what is a dsc", "what does dsc mean", "meaning of dsc"],
+            "responses": ["DSC is Data, Storage, and Computing Services"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "ren",
+            "patterns": ["ren", "the definition of ren", "what is a ren", "what does wadi ren", "meaning of ren"],
+            "responses": ["REN is Renewable and Clean Energy"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "csl",
+            "patterns": ["csl", "the definition of csl", "what is a csl", "what does csl mean", "meaning of csl"],
+            "responses": ["CSL is Climate-Smart Landscapes"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "muh",
+            "patterns": ["muh", "the definition of muh", "what is a muh", "what does muh mean", "meaning of muh"],
+            "responses": ["MUH is Migration under Natural Hazard"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "stc",
+            "patterns": ["stc", "the definition of stc", "what is a stc", "what does stc mean", "meaning of stc"],
+            "responses": ["STC is Scientific Exchanges, Training, and Vocation Courses"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good morning", "Good evening", "Salvation", "Waclibot"],
+            "responses": ["Hello and welcome", "Good to see you again", "Hi there, how can I help?"],
+            "context_set": ""
+        },
+        {
+            "tag": "bye",
+            "patterns": ["Bye", "See you later"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {
+            "tag": "age",
+            "patterns": ["how old", "how old is waclibot", "what is your age", "how old are you", "age?", "when is your birthday"],
+            "responses": ["old enough to know not to judge a book by its cover",
+                "it's hard to tell because i update so often, so feel free to wish me a happy birthday whenever you like"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "name",
+            "patterns": ["what is your name", "what should I call you", "whats your name?"],
+            "responses": ["You can call me waclibot.", "I'm waclibot!"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "hours",
+            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "hours of operation"],
+            "responses": ["We're open 8am-4pm Monday-Friday!", "Our hours are 8am-4pm Monday-Friday!"]
+        },
+
+        {
+            "tag": "wascal",
+            "patterns": ["How to define Wascal", "Wascal means what", "what is the definition of Wascal", "what is Wascal"],
+            "responses": ["WASCAL (West African Science Service Center on Climate Change and Adapted Land Use) is a large-scale, research-driven climate service center designed to help address this challenge and thereby improve the resilience of human and environmental systems to climate change and to increased variability."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "wascallabout",
+            "patterns": ["what is the role of wascal", "why the wascal", "what is the vision of wascal", "what is the goal of wascal", "about wascal"],
+            "responses": ["To provide information and knowledge at the local, national, and regional levels to its West African member countries to cope with the adverse impacts of climate change and devise integrated mid and long-term options to build up resilient and productive socio-ecological landscapes. We do this through capacity building and environmental services in West Africa.",
+                "It is a leading academic and trans-disciplinary organization building graduate-level scientific capacity and serving policy makers in West Africa with science-based advice on climate change adaptation and land use management, WASCAL cooperates with many agencies and universities in Germany and in the region, to provide a knowledge platform of excellence for its partners.",
+                "The German Government, under the leadership of BMBF, took the initiative to create WASCAL and to give it a running start by linking it with the German climate competence.",
+                "The vision is that in a decade, the ECOWAS community will possess a vibrant Climate Service Centre with highly competent partners in the member countries that jointly can address the complex questions raised by climate change.",
+                "WASCAL seeks to become one of Africa’s leading science-based institutions in the provision of climate services in and for West Africa."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "funding",
+            "patterns": ["Who finances wascal", "Who finances you", "funding"],
+            "responses": ["WASCAL is mainly funded by the German Federal Ministry of Education and Research (BMBF)"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "invalid",
+            "patterns": ["", "gvsd", "asbhk"],
+            "responses": ["Sorry, I can't understand you ", " Please give me more info ", " Not sure I understand"]
+        },
+
+        {
+            "tag": "countries",
+            "patterns": ["which are the member countries", "wascal member country"],
+            "responses": ["Germany, Benin, Burkina Faso, Cabo Verde, Cote D'ivoire, Gambia, Ghana, Mali, Niger, Nigeria, Sénégal, Togo"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "changeclimate",
+            "patterns": ["What is climate change", "climate change"],
+            "responses": ["Climate change is the long-term alteration of temperature and typical weather patterns in a place.",
+                "Refers to all the variations in climatic characteristics in a given place, over time: heating or cooling.",
+                "Climate change corresponds to a lasting modification of the climate at the planetary level due to an increase in the concentrations of greenhouse gases (CO2 but also methane, for example) in the atmosphere."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "causeclimatechange",
+            "patterns": ["what is a cause of climate change", "climate change cause"],
+            "responses": ["When greenhouse gas emissions multiply, these gases act as a blanket around the Earth and trap heat from the sun. This phenomenon then leads to global warming as well as climate change. Today, the Earth is warming faster than ever.",
+                "Much of the world's greenhouse gas emissions come from the use of fossil fuels - such as coal, oil and natural gas - to generate electricity and heat.",
+                "Industrial production emits gas emissions, mainly due to its use of fossil fuels to produce the energy needed to manufacture materials such as cement, iron, steel, electronics, plastics and textiles. , as well as other goods.",
+                "La déforestation au profit d’exploitations agricoles, de pâturages ou autre, rejette également des émissions de gaz à effet de serre, puisque les arbres, lorsqu’ils sont abattus, libèrent le carbone qu’ils ont stocké. La destruction des forêts, qui absorbent le dioxyde de carbone, limite également la capacité de la nature à empêcher les émissions de gaz d’entrer dans l’atmosphère."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "consequenceclimatechange",
+            "patterns": ["what is a consequence of climate change", "climate change consequente", "What are the real consequences of climate change"],
+            "responses": ["In almost all regions of the world, very hot days and heat waves are on the increase.",
+                "Changes in temperature in turn cause changes in precipitation. This results in more violent and frequent storms, which can cause floods and landslides, destroy homes and communities, and cost billions of dollars.",
+                "More and more regions are facing water scarcity. Droughts can cause destructive sand and dust storms, capable of moving billions of tons of sand across continents. With desertification, arable land is also seeing its surface reduced. Today, many people are at risk of running out of water.",
+                "The impacts of climate change on different sectors of society are interrelated. Drought can harm food production and human health. Flooding can lead to disease spread and damages to ecosystems and infrastructure. Human health issues can increase mortality, impact food availability, and limit worker productivity.",
+                "Increased heat, drought and insect outbreaks, all linked to climate change, have increased wildfires. Declining water supplies, reduced agricultural yields, health impacts in cities due to heat, and flooding and erosion in coastal areas are additional concerns."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "weather",
+            "patterns": ["weather", "definition of weather"],
+            "responses": ["Set of climatic and atmospheric conditions. Example: We had pleasant weather during our vacation.",
+                "Information given on the state of the weather, the atmosphere: Listen to the weather forecast on the radio."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "climatmeteo",
+            "patterns": ["What is the difference between climate and weather?"],
+            "responses": ["Meteorology is therefore the science of atmospheric phenomena occurring on a local scale and in the short term. While climatology studies the variations of multiple indicators over large territories and over large time scales",
+                "Climate: average weather conditions (temperature and precipitation) of a region measured over a period of thirty years. Weather: atmospheric conditions over a short period."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "climat",
+            "patterns": ["the definition of climat", "climat", "what is the climate"],
+            "responses": ["Set of meteorological phenomena that characterize the average state of the atmosphere in a given location.",
+                "Set of living conditions, circumstances that affect someone; environment, atmosphere, context: The political, social climate."
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "waterlevel",
+            "patterns": ["Why is the water level rising", "Why the sea advances", "Does the sea rise", "What causes the water levels to rise"],
+            "responses": ["Sea level rise can be a consequence of global warming through two main processes: the expansion of water, of the sea (as the oceans warm up) and the melting of land ice.",
+                "The rising water level is mostly due to a combination of melt water from glaciers and ice sheets and thermal expansion of seawater as it warms.",
+                "The two major causes of global sea level rise are thermal expansion caused by warming of the ocean (since water expands as it warms) and increased melting of land-based ice, such as glaciers and ice sheets"
+            ]
+        },
+
+        {
+            "tag": "climate agriculture",
+            "patterns": ["what effects of climate change on agriculture", "What is the impact of climate change on agriculture", "Climate Impacts on Agriculture", "Climate change and agriculture"],
+            "responses": ["Higher temperatures decrease the yields of useful crops while leading to the proliferation of weeds and pests. Changing rainfall patterns increase the likelihood of crop failure in the short term and lower production in the long term.",
+                "Warming temperatures, changing rainfall patterns and the drying up of arable land directly threaten plantations and several other crops",
+                "Climate change can disrupt food availability, reduce access to food, and affect food quality. For example, projected increases in temperatures, changes in precipitation patterns, changes in extreme weather events, and reductions in water availability may all result in reduced agricultural productivity.",
+                "Food may become more expensive as climate change mitigation efforts increase energy prices. Water required for food production may become more scarce due to increased crop water use and drought.",
+                "Climate change can disrupt food availability, reduce access to food, and affect food quality"
+            ]
+        },
+
+        {
+            "tag": "climate animal",
+            "patterns": ["what effects of climate change on animals", "What is the impact of climate change on animals", "Climate Impacts on animals", "Climate change and animals"],
+            "responses": ["More animal species are becoming extinct due to the effects of climate change on the ecosystems and habitats they live in. Animal habitats are becoming less comfortable, sometimes even inhospitable. Animals are affected by increases in pollution that affects the food they eat and the habitats they live in.",
+                "There is already undeniable evidence that animals, birds and plants are being affected by climate change and global warming in both their distribution and behavior",
+                "Le changement climatique et l'augmentation des températures entraîneront des sécheresses, ce qui entraînera une pénurie d'aliments et d'eau pour les animaux de pâturage comme le bétail."
+            ]
+
+        },
+
+        {
+            "tag": "greenhouse",
+            "patterns": ["What is the relationship between the greenhouse effect and global warming", "How does the overproduction of greenhouse gases cause climate change on Earth", ""],
+            "responses": ["Greenhouse Gases (GHGs) are gases naturally present in the atmosphere. They absorb part of the sun's rays and then redistribute them in the form of radiation. Their increasing concentration in the atmosphere, due to human activities, is the cause of global warming",
+                "Global warming occurs as a result of greenhouse gases (GHGs) in the atmosphere, which trap heat. Upon hitting the Earth, the Sun's rays warm its surface."
+            ]
+        },
+
+        {
+            "tag": "solution climate",
+            "patterns": ["How to deal with global warming", "What are the solutions to fight against global warming", ""],
+            "responses": ["MITIGATION (acting on the causes): Reducing greenhouse gas emissions through energy saving and energy efficiency, the use of renewable energies, etc. and enhancement of carbon sinks (forests, sea corals, etc.).",
+                "Let's change our eating habits, Let's reduce our meat consumption, Let's fight against deforestation, Let's preserve the oceans, Let's consume clean energy, Let's reduce our energy consumption, Let's sort our waste!"
+            ]
+        },
+
+        {
+            "tag": "signe climate",
+            "patterns": ["what are the signs of climate change", "What are the indicators of climate change", "What are some examples of climate change"],
+            "responses": ["emperatures are rising, snow and rainfall patterns are shifting, and more extreme climate events – like heavy rainstorms and record high temperatures – are already happening.",
+                "rising maximum temperatures, rising minimum temperatures, rising sea levels, higher ocean temperatures, an increase in heavy precipitation (heavy rain and hail) shrinking glaciers, thawing permafrost"
+            ]
+        },
+
+        {
+            "tag": "directorexecutif",
+            "patterns": ["who is the executive director of wascal", "the executive director of wascal", "who is Moumini Savadogo"],
+            "responses": ["doctor Moumini Savadogo is the excutive director of wascal"]
+        },
+
+        {
+            "tag": "directorcapacityB",
+            "patterns": ["who is the capacity building director of wascal", "the capacity building director of wascal", "who is Douda kone", "who is Douada kone"],
+            "responses": ["Professor Douda kone is the capacity building director of wascal"]
+        },
+
+        {
+            "tag": "directorresearch",
+            "patterns": ["who is the research director of wascal", "the research director of wascal", "who is kehinde ogunjobi"],
+            "responses": ["Professor Kehinde o. Ogunjobi is the research director"]
+        },
+
+        {
+            "tag": "directors",
+            "patterns": ["who is the director of wascal", "who is the directors of wascal", "wascal how many directors"],
+            "responses": ["wascal has three directors who are: doctor Moumini Savadogo, Professor Douda kone, Professor Kehinde o. Ogunjobi"]
+        }
+
+    ]
+}
